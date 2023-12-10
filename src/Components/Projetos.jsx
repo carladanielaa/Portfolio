@@ -4,12 +4,12 @@ import Previsaodotempo from "../assets/previsaodotempo.png";
 import Cordel from "../assets/cordel.png";
 import RedesSociais from "../assets/redessociais.png";
 import Calculadora from "../assets/calculadora.png";
-import { Img, Section } from "../Styled/ProjetosStyle";
+import { Img, Section, Section1 } from "../Styled/ProjetosStyle";
 
 export default function Projeto() {
   return (
-    <section>
-      <h2>Projetos</h2>
+    <Section1>
+      <h1>Projetos</h1>
 
       <Section>
         <div>
@@ -22,12 +22,10 @@ export default function Projeto() {
             <div>
               <h2>Previsão do Tempo</h2>
               <h3>
-                Se você quiser saber a previsão do tempo onde você mora, é só
-                acessar esse site.
+               Consumindo uma API
               </h3>
               <p>
-                Construí esse site com HTML, CSS e JavaScript, consumindo uma
-                API de Previsão do tempo.
+                Construído com HTML, CSS e JavaScript
               </p>
             </div>
           </section>
@@ -72,6 +70,6 @@ export default function Projeto() {
           </div>
         </section>
       </Section>
-    </section>
+    </Section1>
   );
 }

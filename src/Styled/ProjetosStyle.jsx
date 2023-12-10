@@ -1,20 +1,29 @@
 import styled from "styled-components";
 
+export const Section1 = styled.section`
 
+h1{
+    color:#ff0072 ;
+    margin: 20px;
+    text-align: center;
+}
+`
 export const Img = styled.img`
 
-max-width: 300px; 
-height: auto; 
-margin-bottom: 10px; 
+max-width: 440px; 
+height: 35vh; 
+margin-bottom: 5px; 
+
 
 @media (max-width: 768px) {
-    max-width: 100%;
+   
+    max-width: 200%;
     padding: 10px;
     border: solid;
 }
 @media (max-width: 1280px) {
   
-  padding: 10px;
+
   border: solid;
   max-width: 400px;
 }
@@ -22,34 +31,31 @@ margin-bottom: 10px;
 `
 export const Section = styled.section`
 display: flex;
+
 flex-wrap: wrap;
 justify-content: space-around;
-
+color: #ff0072;
 line-height: 24px;
 word-spacing: 5px;
 h1{
-    padding: 20px;
-    border: solid;
+    
+    padding: 10px;
+   
 }
 h2{
-
-    color: #f36a71;   
+    text-align: center;
+    color: #ff0072;  
 }
 h3{
-    color: white;
+    text-align: center;
+    color: #ff0072;
 }
 p{
-    color: white;
+    text-align: center;
+    color: #ff0072;
 }
 
 
-`
-export const Cordel = styled.section`
-
-
 
 `
 
-// export const RedesSociais = styled.div`
-// display: flex;
-// `
